@@ -13,7 +13,7 @@ This project is designed with the intent that public schools with limited budget
 # 4. Software List
 * [Raspbian Stretch Lite](https://www.raspberrypi.org/downloads/raspbian/) - This is the Linux operating system which will be run on the Raspberry Pi. The desktop version is larger and this project will not need or use the graphical user interface. This is the only piece of software that will need to be acquired prior to beginning setting up the system. Everything else will be downloaded later.
 * pico2wave
-* ffmpeg
+* ~~ffmpeg~~
 
 # 5. Setting up the Raspberry Pi
 The Raspberry Pi will need to be connected to an HDMI capable monitor, an Ethernet connection to the Internet ([wifi is an option as well](https://www.raspberrypi.org/documentation/configuration/wireless/wireless-cli.md)), and a keyboard, then powered up through its micro USB port. The default username and password is:
@@ -21,13 +21,13 @@ The Raspberry Pi will need to be connected to an HDMI capable monitor, an Ethern
 > user: pi         
 > password: raspberry
 
-First, update the system's current software.
+~~First, update the system's current software.
 
-> sudo apt-get update    
-> sudo apt-get dist-upgrade
+~~> sudo apt-get update    
+~~> sudo apt-get dist-upgrade
 
-Further information can be found on the [Raspberry Pi website's article about updating](https://www.raspberrypi.org/documentation/raspbian/updating.md).
+~~Further information can be found on the [Raspberry Pi website's article about updating](https://www.raspberrypi.org/documentation/raspbian/updating.md).
 
-Installing software that will be used later:
+~~Installing software that will be used later:
 
-> sudo apt-get install libttspico-utils ffmpeg
+~~> sudo apt-get install libttspico-utils ffmpeg
