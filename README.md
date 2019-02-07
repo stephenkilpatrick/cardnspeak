@@ -21,7 +21,7 @@ The Raspberry Pi will need to be connected to an HDMI capable monitor, an Ethern
 > user: pi         
 > password: raspberry
 
-The first thing to do is to update the system's current software.
+First, update the system's current software.
 
 > sudo apt-get update    
 > sudo apt-get dist-upgrade
