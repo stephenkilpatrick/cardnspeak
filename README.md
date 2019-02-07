@@ -23,7 +23,7 @@ The Raspberry Pi will need to be connected to an HDMI capable monitor, an Ethern
 
 ~~First, update the system's current software.~~
 
-~~sudo apt-get update    ~~
+~~sudo apt-get update~~
 ~~sudo apt-get dist-upgrade~~
 
 ~~Further information can be found on the [Raspberry Pi website's article about updating](https://www.raspberrypi.org/documentation/raspbian/updating.md).~~
