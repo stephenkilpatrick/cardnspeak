@@ -1,3 +1,5 @@
+# 0. Project is currently non-functioning and is a work in progress.
+
 # 1. Project Introduction
 The purpose of this project is to create a RFID or NFC triggered device that plays audio files. The primary user of this project is young learners that need assistive technologies. Use case examples will be for literary education in which a learner could benefit from hearing words or phrases spoken aloud. Further uses could include communication devices for people who may have difficulty speaking.
 
@@ -13,6 +15,7 @@ This project is designed with the intent that public schools with limited budget
 # 4. Software List
 * [Raspbian Stretch Lite](https://www.raspberrypi.org/downloads/raspbian/) - This is the Linux operating system which will be run on the Raspberry Pi. The desktop version is larger and this project will not need or use the graphical user interface. This is the only piece of software that will need to be acquired prior to beginning setting up the system. Everything else will be downloaded later.
 * pico2wave
+* git
 * ~~ffmpeg~~
 
 # 5. Setting up the Raspberry Pi
@@ -21,13 +24,9 @@ The Raspberry Pi will need to be connected to an HDMI capable monitor, an Ethern
 > user: pi         
 > password: raspberry
 
-~~First, update the system's current software.~~
+First, get git and download the scripts that will do the bulk of the work setting up the Raspberry Pi:
 
-~~sudo apt-get update~~
-~~sudo apt-get dist-upgrade~~
-
-~~Further information can be found on the [Raspberry Pi website's article about updating](https://www.raspberrypi.org/documentation/raspbian/updating.md).~~
-
-~~Installing software that will be used later:~~
-
-~~> sudo apt-get install libttspico-utils ffmpeg~~
+> sudo apt-get install git  
+> git clone https://github.com/stephenkilpatrick/cardnspeak.git   
+> cd cardnspeak    
+> bash configure.sh
