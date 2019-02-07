@@ -7,3 +7,4 @@ pico2wave -w ~/startupcomplete.wav "Startup is complete"
 pico2wave -w ~/noaudiofile.wav "No matching audio file found"
 echo ~/.bashrc >> aplay ~/startupcomplete.wav
 echo ~/.bashrc >> bash ~/cardnspeak.sh
+cp cardnspeak.sh ~
