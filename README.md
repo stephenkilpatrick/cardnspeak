@@ -20,7 +20,13 @@ The Raspberry Pi will need to be connected to an HDMI capable monitor, an Ethern
 > user: pi         
 > password: raspberry
 
-First, get git and download the scripts that will do the bulk of the work setting up the Raspberry Pi:
+First, open [raspi-config](https://www.raspberrypi.org/documentation/configuration/raspi-config.md) and make the following changes:
+
+> Boot Options -> Desktop/CLI -> Console Autologon (required)    
+> Boot Options -> Wait for Network to Boot -> No (optional, but changing this will speed up boot time)    
+> Advanced Options -> Audio -> Force 3.5mm (optional, but if the Raspberry Pi cannot automatically detect the audio plug, the device will not work)   
+
+Next, get git and download the scripts that will do the bulk of the work setting up the Raspberry Pi:
 
 > sudo apt-get install git  
 > git clone https://github.com/stephenkilpatrick/cardnspeak.git   
