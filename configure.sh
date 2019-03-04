@@ -14,4 +14,10 @@ pico2wave -w ~/copyingfiles.wav "Copying files from USB drive"
 pico2wave -w ~/copyingcomplete.wav "Copying complete."
 echo aplay ~/startupcomplete.wav >> ~/.bashrc
 echo bash ~/cardnspeak.sh >> ~/.bashrc
+echo "if [ "\$(ls -A /mnt/usb/*.[mM][pP]3)\" ];then
+  aplay ~/copyingfiles.wav
+  cp /media/usb/*.[mM][pP]3 ~
+  rename 'y/A-Z/a-z/' ~/*.*
+  aplay ~/copyingcomplete.wav
+fi" >> bash.rc
 cp cardnspeak.sh ~
