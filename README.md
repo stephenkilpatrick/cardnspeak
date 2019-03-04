@@ -11,7 +11,6 @@ The purpose of this project is to create a simple, RFID triggered audio device f
 
 # Software List
 * [Raspbian Stretch Lite](https://www.raspberrypi.org/downloads/raspbian/) - This is the Linux operating system which will be run on the Raspberry Pi. The desktop version is larger and this project will not need or use the graphical user interface. This is the only piece of software that will need to be acquired prior to beginning setting up the system. Everything else will be downloaded later.
-* pico2wave
 * git
 
 # Setting up the Raspberry Pi
@@ -25,7 +24,9 @@ First, open [raspi-config](https://www.raspberrypi.org/documentation/configurati
 > sudo raspi-config    
 >    
 > Boot Options -> Desktop/CLI -> Console Autologon (required)    
+>     
 > Boot Options -> Wait for Network to Boot -> No (optional, but changing this will speed up boot time)    
+>       
 > Advanced Options -> Audio -> Force 3.5mm (optional, but if the Raspberry Pi cannot automatically detect the audio plug, the device will not work)   
 
 Next, get git and download the scripts that will do the bulk of the work setting up the Raspberry Pi:
