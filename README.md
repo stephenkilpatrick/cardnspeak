@@ -22,6 +22,8 @@ The Raspberry Pi will need to be connected to an HDMI capable monitor, an Ethern
 
 First, open [raspi-config](https://www.raspberrypi.org/documentation/configuration/raspi-config.md) and make the following changes:
 
+> sudo raspi-config    
+>    
 > Boot Options -> Desktop/CLI -> Console Autologon (required)    
 > Boot Options -> Wait for Network to Boot -> No (optional, but changing this will speed up boot time)    
 > Advanced Options -> Audio -> Force 3.5mm (optional, but if the Raspberry Pi cannot automatically detect the audio plug, the device will not work)   
