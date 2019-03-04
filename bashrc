@@ -1,4 +1,4 @@
-if [ "\$(ls -A /mnt/usb/*.[mM][pP]3)\" ];then        
+if [ "$(ls -A /mnt/usb/*.[mM][pP]3)" ];then        
   aplay ~/copyingfiles.wav
   cp /media/usb/*.[mM][pP]3 ~
   rename 'y/A-Z/a-z/' ~/*.*
