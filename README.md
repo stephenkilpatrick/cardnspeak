@@ -41,7 +41,7 @@ The build expects files in the MP3 format. Transferring the audio files to the d
 
 1. Find out the numeric value of the RFID card. This is most easily done by connecting the RFID reader to the computer you are creating the audio file with and scanning the card with a text editor open. *NOTE:* I have found that the RFID reader that I'm using in my build does not play consistently nice with Apple computers. Apple has something with its USB bus that will not consistently give correct inputs from the reader. Windows and Linux do not seem to have this same issue.
 2. Record your audio and save it as an MP3.
-3. Rename your audio file so that its filename is the same as the numeric value of the card. The format should look like 123456789.mp3/
+3. Rename your audio file so that its filename is the same as the numeric value of the card. The format should look like: 123456789.mp3
 4. Copy the file(s) to the root directory of a USB drive.
 5. Connect the USB drive to the device and restart it.
 6. Audio cues should indicate that the files have been found and are copying. Afterwards, use the card to verify that it functions. If it does not, double check the name of the file versus the number embedded in the card.
