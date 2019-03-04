@@ -6,7 +6,7 @@ sudo apt-get install -y libttspico-utils debhelper
 git clone https://github.com/rbrito/usbmount.git
 cd usbmount
 sudo dpkg-buildpackage -us -uc -b
-cd ~
+cd ..
 sudo apt install -y $PWD/usbmount_0.0.24_all.deb
 pico2wave -w ~/startupcomplete.wav "Startup is complete"
 pico2wave -w ~/noaudiofile.wav "No matching audio file found"
