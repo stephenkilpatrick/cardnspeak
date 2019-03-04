@@ -12,5 +12,5 @@ pico2wave -w ~/startupcomplete.wav "Startup is complete"
 pico2wave -w ~/noaudiofile.wav "No matching audio file found"
 pico2wave -w ~/copyingfiles.wav "Copying files from USB drive"
 pico2wave -w ~/copyingcomplete.wav "Copying complete."
-cat bashrc ~/.bashrc
+cat ./bashrc >> ~/.bashrc
 cp cardnspeak.sh ~
