@@ -2,7 +2,7 @@
 
 sudo apt-get update
 sudo apt-get -y dist-upgrade
-sudo apt-get install -y libttspico-utils debhelper
+sudo apt-get install -y libttspico-utils debhelper mpg123
 git clone https://github.com/rbrito/usbmount.git
 cd usbmount
 sudo dpkg-buildpackage -us -uc -b
