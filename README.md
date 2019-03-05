@@ -1,5 +1,3 @@
-# Project is currently non-functioning and is a work in progress.
-
 # Introduction
 The purpose of this project is to create a simple, RFID triggered audio device for young learners who have a need for assistive technologies. Use cases will include literacy familiarity learning and communication assistance, such as using RFID cards to trigger: "I am hungry," The device will play audio files of any length, including songs or entire audiobooks. Furthermore, the project is intended to be as simple as possible requiring little technical ability and low in cost for public school districts that may not have resources to acquire commercial offerings of similar products.
 
