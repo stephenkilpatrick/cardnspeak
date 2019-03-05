@@ -1,6 +1,8 @@
 # Introduction
 The purpose of this project is to create a simple, RFID triggered audio device for young learners who have a need for assistive technologies. Use cases will include literacy familiarity learning and communication assistance, such as using RFID cards to trigger: "I am hungry," The device will play audio files of any length, including songs or entire audiobooks. Furthermore, the project is intended to be as simple as possible requiring little technical ability and low in cost for public school districts that may not have resources to acquire commercial offerings of similar products.
 
+Very brief video demonstrating the project can be found at [https://vimeo.com/user26991580/review/321372901/b9702583bd](https://vimeo.com/user26991580/review/321372901/b9702583bd).
+
 # Hardware List
 * RFID reader - [Amazon link](https://www.amazon.com/gp/product/B07B7H6CQ2/ref=ppx_yo_dt_b_asin_title_o03__o00_s00?ie=UTF8&psc=1) - This RFID reader connects through USB and behaves like a keyboard. Whatever the ID of the card being scanned, it will be entered in as if typed. The linked device appears to be a commonly copied Chinese manufactured device, so there are many others available on Amazon that appear to be identical other than branding.
 * 125Khz RFID cards - [Amazon link](https://www.amazon.com/gp/product/B01M1L7NHI/ref=ppx_yo_dt_b_asin_title_o02__o00_s00?ie=UTF8&psc=1) - The previously linked reader works with 125Khz RFID cards. Smaller RFID tags are available and would work well for embedding in small toys.
