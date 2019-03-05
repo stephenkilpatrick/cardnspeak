@@ -6,8 +6,8 @@ do
        read SCANNEDCARD
        if [ -e $SCANNEDCARD.mp3 ]
        then
-               aplay $SCANNEDCARD.mp3
+               mpg123 $SCANNEDCARD.mp3
        else
-               aplay noaudiofile.mp3
+               mpg123 noaudiofile.mp3
        fi
 done
