@@ -8,6 +8,6 @@ do
        then
                mpg123 $SCANNEDCARD.mp3
        else
-               mpg123 noaudiofile.mp3
+               aplay noaudiofile.wav
        fi
 done
