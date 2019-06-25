@@ -1,8 +1,8 @@
 if [ "$(ls -A /media/usb/*.[mM][pP]3)" ];then        
-  aplay ~/copyingfiles.wav
+  mpg123 ~/copyingfiles.mp3
   cp /media/usb/*.[mM][pP]3 ~
   rename 'y/A-Z/a-z/' ~/*.*
-  aplay ~/copyingcomplete.wav
+  mpg123 ~/copyingcomplete.mp3
 fi
-aplay ~/startupcomplete.wav
+mpg123 ~/startupcomplete.mp3
 bash ~/cardnspeak.sh
