@@ -32,7 +32,7 @@ First, open [raspi-config](https://www.raspberrypi.org/documentation/configurati
 
 Next, get git and download the scripts that will do the bulk of the work setting up the Raspberry Pi:
 
-> sudo apt-get install git  
+> sudo apt-get -y install git  
 > git clone https://github.com/stephenkilpatrick/cardnspeak.git   
 > cd cardnspeak    
 > bash configure.sh
